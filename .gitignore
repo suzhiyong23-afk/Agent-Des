@@ -1,0 +1,16 @@
+# Local files and credentials
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.pyc
+.venv/
+work/
+outputs/
+# Research archives are not part of this distribution
+raw-media/
+transcripts/
+keyframes/

@@ -1,0 +1,96 @@
+{
+  "package": "agent-des",
+  "version": "0.3.0",
+  "distributionDate": "2026-10-20",
+  "targetRepository": "https://github.com/suzhiyong23-afk/Agent-Des",
+  "manifestScope": "distribution file integrity; remote publication is verified separately",
+  "sourceScope": "10 selected core files, no historical project reviews or raw media",
+  "changes": [
+    "Normalize distribution text to UTF-8 and LF.",
+    "Keep SKILL.md behavior unchanged.",
+    "Generalize an unrelated internal project name in the validation summary.",
+    "Point the validation summary to this distribution manifest.",
+    "Add README, NOTICE, .gitignore and .gitattributes."
+  ],
+  "checks": {
+    "skillMetadata": "passed",
+    "relativeReferences": "passed",
+    "uniqueSourceParts": 1022,
+    "sourceUploads": 14,
+    "credentialAndAbsolutePathScan": "passed-pattern-based",
+    "productionBehaviorRetested": false
+  },
+  "manifestExcludesItself": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 204,
+      "sha256": "632536be617d9aac5a2594e7d1b47ec778a52398f997079e93be5d9dc70865bc"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 162,
+      "sha256": "627c72930230ad0bfd92086ed718ab1cd299bdaa7977d29fe929802ebe1402a2"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1484,
+      "sha256": "9df9ab1d6c5ce248ae4667a5b6726c1bac610de2ba25031411db6e5b35227734"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6394,
+      "sha256": "498ee35399146dc67a717969f86e707493c12f79363fb735592d1979400b5664"
+    },
+    {
+      "path": "references/decision-patterns.md",
+      "bytes": 3242,
+      "sha256": "948fbf2446333d74ce601b9a7c645304dbc81a5581f2d64bb7d8bf4db1a3e785"
+    },
+    {
+      "path": "references/research/course-reading-index-20261020.json",
+      "bytes": 343321,
+      "sha256": "77310834fda80f6e619c7d9337c3c154303d798a34db0bd422e65d9554b9fcf3"
+    },
+    {
+      "path": "references/research/distillation-synthesis-20261020.md",
+      "bytes": 3222,
+      "sha256": "e1d6d993f1ddaed3e86a70b170645bf8e1e699f4ce016670992123b9137c2c5b"
+    },
+    {
+      "path": "references/research/skill-validation-030-20261020.md",
+      "bytes": 4324,
+      "sha256": "47c97818d17d79b992aab1a5d61a852ca032ddbf93c83df9b0893f6fea0084cd"
+    },
+    {
+      "path": "references/sources-and-limits.md",
+      "bytes": 5846,
+      "sha256": "77fd752d3741411adf68c215c9bcff55b0ec04b8ac790327194e489862b8ae3e"
+    },
+    {
+      "path": "references/task-evaluation.md",
+      "bytes": 2627,
+      "sha256": "b52ecf90a2e4120f60ee72ec4accd1d07fb2faa73caacb8c271b1e6c7aaac6e0"
+    },
+    {
+      "path": "references/tool-state-contracts.md",
+      "bytes": 3173,
+      "sha256": "6e63fadaa89c4341e52e0b1e253ff998edec9cd3691930bd525b25f1f7429254"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6703,
+      "sha256": "8660499fe19a24a0c112f8602f0bffa70ae8fc0763d8315b3f14fde6c34e8d80"
+    },
+    {
+      "path": "sources/nuwa-LICENSE.txt",
+      "bytes": 1072,
+      "sha256": "d0952e801d7484cc5344f41cc0378567d20a3c996b784eb97460287adde9ab37"
+    }
+  ]
+}
