@@ -2,11 +2,6 @@
 
 Agent Des 是面向具体任务的 Agent 工程方法 Skill。本次分发保留版本 0.3.0；核心方法不变，补充仓库说明与文件清单，并将验证摘要中无关的内部项目名称泛化。
 
-## 第三方材料
-
-女娲方法来自 [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill)，原作者为 Huashu（花叔）。其 MIT 许可全文保留于 [sources/nuwa-LICENSE.txt](sources/nuwa-LICENSE.txt)。第三方许可只适用于相应材料，不自动覆盖本仓库其他内容。
-
-课程观察采用独立归纳与来源链接；本包不包含原视频、音轨、课程全文、OCR/ASR 缓存或截图。来源覆盖及识别、采样和验证限制见 [references/sources-and-limits.md](references/sources-and-limits.md)。课程讲者与方法原作者未为本 Skill 背书。
 
 ## 本项目许可
 
